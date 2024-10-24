@@ -53,12 +53,15 @@ This project performs sentiment analysis on Amazon product reviews using a Large
    ```
    Where `__label__1` represents a negative review and `__label__2` represents a positive review.
 
-2. Run the script:
+   or Download the data from this link https://www.kaggle.com/datasets/bittlingmayer/amazonreviews?resource=download
+   
+
+3. Run the script:
    ```
    python review_gt_compare.py
    ```
 
-3. The script will process the reviews and output:
+4. The script will process the reviews and output:
    - A CSV file with the results (`sentiment_analysis_results.csv`)
    - A confusion matrix image (`confusion_matrix.png`)
    - Console output with accuracy metrics and processing statistics
